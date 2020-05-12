@@ -1,0 +1,94 @@
+@font-face {
+  font-family: series;
+  src: url(css/fonts/SAA Series W01 EM D.ttf);
+}
+
+html {
+background-color: black;
+}
+
+.art {
+position: relative;
+width: 80%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 17%;
+cursor: crosshair;
+}
+
+/* SVG styling *begin* */
+
+.cls-1 {
+  fill: white;
+
+}
+
+/* SVG styling *eind* */
+
+/* (hover) effect light *begin* */
+
+#lightletters {
+position: absolute;
+opacity: 50%;
+margin-left: 35px;
+transition: 0.5s;
+}
+
+#lightletters:hover {
+opacity: 100%;
+}
+
+/* (hover) effect light *end* */
+
+/* (hover) effect years *begin* */
+
+#yearsletters {
+position: absolute;
+opacity: 50%;
+transition: 0.5s;
+}
+
+#yearsletters:hover {
+opacity: 100%;
+}
+
+/* (hover) effect years *end* */
+
+/* (hover) undertitle *begin* */
+
+#undertitle {
+font-size: 16px;
+font-family: sans-serif;
+font-weight: 900;
+margin-left: 8%;
+margin-top: 7em;
+color: white;
+opacity: 70%;
+}
+
+#undertitle:hover {
+opacity: 100%;
+
+}
+
+
+
+/*  (hover) CSS undertitle *einde* */
+
+
+
+
+
+/* CSS undertitle *end* */
+
+
+
+
+
+
+
+
+
+
+/* test op test.html */
