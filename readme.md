@@ -1,4 +1,4 @@
-In deze readme staat een uitleg over het vak "Web-animation". 
+In deze readme staat een uitleg over het vak "Web-animation".  
 Voor dit vak gaan wij een album cover of kunstwerk omtoveren naar een interactieve internet pagina.
 
 Als kunstwerk had ik in eerste instantie een album cover gekozen van een artiest die ik graag luister. Achteraf bleek dat dit erg moeilijk was om te coderen en heb ik geswitched naar een andere ontwerp.
