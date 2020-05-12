@@ -1,6 +1,9 @@
 @font-face {
-  font-family: series;
-  src: url(css/fonts/SAA Series W01 EM D.ttf);
+    font-family: 'saaseriesw01-emdregular';
+    src: url('fonts/saa_series_w01_em_d-webfont.woff2') format('woff2'),
+         url('fonts/saa_series_w01_em_d-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html {
@@ -59,12 +62,11 @@ opacity: 100%;
 
 #undertitle {
 font-size: 16px;
-font-family: sans-serif;
-font-weight: 900;
-margin-left: 8%;
+text-align: center;
 margin-top: 7em;
 color: white;
 opacity: 70%;
+font-family: 'saaseriesw01-emdregular';
 }
 
 #undertitle:hover {
