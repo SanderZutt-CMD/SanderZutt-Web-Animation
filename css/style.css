@@ -8,6 +8,7 @@
 
 html {
 background-color: black;
+cursor: crosshair;
 }
 
 .art {
@@ -16,15 +17,13 @@ width: 80%;
 display: block;
 margin-left: auto;
 margin-right: auto;
-margin-top: 17%;
-cursor: crosshair;
+margin-top: 15%;
 }
 
 /* SVG styling *begin* */
 
 .cls-1 {
   fill: white;
-
 }
 
 /* SVG styling *eind* */
