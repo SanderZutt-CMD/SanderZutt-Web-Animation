@@ -8,7 +8,6 @@
 
 html {
 background-color: black;
-cursor: crosshair;
 }
 
 .art {
@@ -25,7 +24,6 @@ margin-top: 15%;
 .cls-1 {
   fill: white;
 }
-
 /* SVG styling *eind* */
 
 /* (hover) effect light *begin* */
@@ -72,24 +70,11 @@ font-family: 'saaseriesw01-emdregular';
 opacity: 100%;
 
 }
-
-
-
 /*  (hover) CSS undertitle *einde* */
 
+/* javascript oefenen *begin* */
 
+.Ytoetsenbord {
+background-color: red;
 
-
-
-/* CSS undertitle *end* */
-
-
-
-
-
-
-
-
-
-
-/* test op test.html */
+}
