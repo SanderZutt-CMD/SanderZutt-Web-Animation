@@ -10,6 +10,11 @@ html {
 background-color: black;
 }
 
+/* ================================================ */
+/*			       	   	SVG styling total  							*/
+/* ================================================ */
+
+
 .art {
 position: relative;
 width: 80%;
@@ -17,17 +22,37 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 margin-top: 15%;
+text-align: center;
+fill: white;
 }
 
-/* SVG styling *begin* */
+/* ===================Einde div==================== */
 
-.cls-1 {
-  fill: white;
+/* ================================================ */
+/*			       	   	SVG styling    	   							*/
+/* ================================================ */
+
+.blue {
+    fill: #3F51B5;
 }
-/* SVG styling *eind* */
+.amber {
+    fill: #FFC107;
+}
+.groen {
+    fill: #CDDC39;
+}
+.red {
+    fill: #EF5350;
+}
 
-/* (hover) effect light *begin* */
+/* ===================Einde kleur================== */
 
+
+/* ================================================ */
+/*			       	   	SVG styling Hover   						*/
+/* ================================================ */
+
+/* =====lights hover====== */
 #lightletters {
 position: absolute;
 opacity: 50%;
@@ -39,10 +64,7 @@ transition: 0.5s;
 opacity: 100%;
 }
 
-/* (hover) effect light *end* */
-
-/* (hover) effect years *begin* */
-
+/* =====years hover====== */
 #yearsletters {
 position: absolute;
 opacity: 50%;
@@ -53,10 +75,7 @@ transition: 0.5s;
 opacity: 100%;
 }
 
-/* (hover) effect years *end* */
-
-/* (hover) undertitle *begin* */
-
+/* =====undertitle hover====== */
 #undertitle {
 font-size: 16px;
 text-align: center;
@@ -70,11 +89,69 @@ font-family: 'saaseriesw01-emdregular';
 opacity: 100%;
 
 }
-/*  (hover) CSS undertitle *einde* */
 
-/* javascript oefenen *begin* */
+/* ===================Einde hover================== */
 
-.Ytoetsenbord {
-background-color: red;
+/* ================================================ */
+/*			       	 	buttons styling    	   						*/
+/* ================================================ */
 
+.buttons {
+  display: block;
+  margin-left: auto%;
+  margin-right: auto;
+  margin-top: -45em;
+  text-align: center;
+  justify-content:space-around;
 }
+button {
+  padding: 1em 2em 1em 2em;
+  margin: 2em;
+  border: 0px;
+  color: white;
+  font-size: 16px;
+  font-family: 'saaseriesw01-emdregular';
+}
+button:hover {
+  cursor: pointer;
+	box-shadow: inset 0 -3.125rem 0 rgb(255,255,255, 0.3);
+	-webkit-transition: -webkit-box-shadow .35s ease-in-out;
+  color: black;
+}
+
+button:nth-of-type(1) {
+  background-color: #3F51B5;
+}
+button:nth-of-type(2) {
+  background-color: #FFC107;
+}
+button:nth-of-type(3) {
+  background-color: #CDDC39;
+}
+button:nth-of-type(4) {
+  background-color: #EF5350;
+}
+
+/* ===================Einde button================== */
+
+/* ================================================ */
+/*			       	     Media Query    	   						*/
+/* ================================================ */
+
+@media screen and (max-width:768px) {
+	.art {
+	   border: 30px red;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ===================Einde button================== */

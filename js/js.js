@@ -4,21 +4,40 @@
 // console.log(name + sureName)
 
 
-// class zetten op de letter Y
-var LetterY = document.querySelectorAll('path')[4];
-var YTwee = document.querySelectorAll('path')[5];
+//===========================================//
+//              Button color switch          //
+//===========================================//
 
-LetterY.addEventListener('click', function () {
-	YTwee.classList.toggle('Ytoetsenbord');
+
+
+//===========Blauw============//
+var button = document.querySelector('.blauw');
+var element = document.querySelector('button');
+
+button.addEventListener("click", function () {
+  element.classList.toggle("blue");
 });
 
+//===========Geel============//
+var buttonGeel = document.querySelector('.geel');
+var element = document.querySelector('div');
 
+buttonGeel.addEventListener("click", function () {
+  element.classList.toggle("amber");
+});
 
+//===========Peer============//
+var buttonGreen = document.querySelector('.peer');
+var element = document.querySelector('div');
 
+buttonGreen.addEventListener("click", function () {
+  element.classList.toggle("groen");
+});
 
-// var OpenMenuBalk = document.querySelectorAll('li')[5];
-// var Menu = document.querySelector('ul');
-//
-// OpenMenuBalk.addEventListener('click', function () {
-// 	Menu.classList.toggle('keuzedown');
-// });
+//===========Rood============//
+var buttonRed = document.querySelector('.rood');
+var element = document.querySelector('div');
+
+buttonRed.addEventListener("click", function () {
+  element.classList.toggle("red");
+});
