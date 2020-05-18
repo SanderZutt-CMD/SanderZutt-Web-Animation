@@ -54,7 +54,7 @@ fill: white;
 #lightletters {
 position: absolute;
 opacity: 50%;
-margin-left: 35px;
+/* margin-left: 35px; */
 transition: 0.5s;
 }
 
@@ -75,7 +75,7 @@ opacity: 100%;
 
 /* =====undertitle hover====== */
 #undertitle {
-font-size: 16px;
+font-size: 1em;
 text-align: center;
 margin-top: 7em;
 color: white;
@@ -95,19 +95,20 @@ opacity: 100%;
 /* ================================================ */
 
 .buttons {
-  display: block;
-  margin-left: auto%;
-  margin-right: auto;
+  display: flex;
   margin-top: 5em;
   text-align: center;
   justify-content:space-around;
+  flex-direction: row;
+  min-width: 10%;
 }
 button {
   padding: 1em 2em 1em 2em;
-  margin: 2em;
-  border: 0px;
+  margin-bottom: 5em;
+  margin-left: 1em;
+  border: 0;
   color: white;
-  font-size: 16px;
+  font-size: 1em;
   font-family: 'saaseriesw01-emdregular';
 }
 
@@ -150,19 +151,19 @@ button:nth-of-type(5):hover {
   margin-right: auto;
   width: 44%;
   -webkit-appearance: none;
-  border-radius: 0px;
+  border-radius: 0;
   background-color: #7F7F7F;
 }
 .schuivert::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width: 20px;
-  height: 20px;
+  width: 1.5em;
+  height: 1.5em;
   background-color: white;
 }
 
 #rangeValue {
   color: white;
-  font-size: 30px;
+  font-size: 2.5em;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -191,16 +192,14 @@ button:nth-of-type(5):hover {
 @media screen and (max-width: 992px) {
   body {
     transform: rotate(90deg);
-    margin-top: 40em;
+    margin-top: 0em;
     width: 100%;
-    margin-left: 0%;
-
   }
 }
 
 @media screen and (max-width: 992px) {
-  .buttons {
-    width: 100%;
+  .art {
+    margin-left: 0%;
   }
 }
 
