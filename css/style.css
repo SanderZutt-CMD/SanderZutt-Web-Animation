@@ -135,6 +135,36 @@ button:nth-of-type(4) {
 /* ===================Einde button================== */
 
 /* ================================================ */
+/*			       	       Slider    	     	   					*/
+/* ================================================ */
+
+.schuivert {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 44%;
+  -webkit-appearance: none;
+  border-radius: 0px;
+  background-color: #7F7F7F;
+}
+.schuivert::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+}
+
+#rangeValue {
+  color: white;
+  font-size: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'saaseriesw01-emdregular';
+}
+
+/* ================================================ */
 /*			       	     Media Query    	   						*/
 /* ================================================ */
 

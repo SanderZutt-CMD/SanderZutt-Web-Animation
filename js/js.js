@@ -8,11 +8,9 @@
 //              Button color switch          //
 //===========================================//
 
-
-
 //===========Blauw============//
 var button = document.querySelector('.blauw');
-var element = document.querySelector('button');
+var element = document.querySelector('.div');
 
 button.addEventListener("click", function () {
   element.classList.toggle("blue");
@@ -41,3 +39,26 @@ var element = document.querySelector('div');
 buttonRed.addEventListener("click", function () {
   element.classList.toggle("red");
 });
+
+//===============Einde button================//
+
+//===========================================//
+//                   Slider                  //
+//===========================================//
+
+function Slider(value) {
+document.getElementById('rangeValue').innerHTML = value;
+}
+
+var Value = '.rangeValue';
+
+if (Value < 5) {
+  console.log("Good day");
+}
+
+
+
+
+
+
+//===============Einde slider================//
