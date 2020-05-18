@@ -193,7 +193,8 @@ button:nth-of-type(5):hover {
     transform: rotate(90deg);
     margin-top: 40em;
     width: 100%;
-    transition: ease-out;
+    margin-left: 0%;
+
   }
 }
 
