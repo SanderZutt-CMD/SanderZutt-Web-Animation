@@ -8,37 +8,55 @@
 //              Button color switch          //
 //===========================================//
 
-//===========Blauw============//
-var button = document.querySelector('.blauw');
-var element = document.querySelector('.div');
 
+var button = document.querySelector('.blauw');
+var svg = document.querySelector('.art');
+
+//===========Blauw============//
 button.addEventListener("click", function () {
-  element.classList.toggle("blue");
+  removeColor();
+  svg.classList.toggle("blue");
 });
 
 //===========Geel============//
 var buttonGeel = document.querySelector('.geel');
-var element = document.querySelector('div');
 
 buttonGeel.addEventListener("click", function () {
-  element.classList.toggle("amber");
+  removeColor();
+  svg.classList.toggle("amber");
 });
 
 //===========Peer============//
 var buttonGreen = document.querySelector('.peer');
-var element = document.querySelector('div');
 
 buttonGreen.addEventListener("click", function () {
-  element.classList.toggle("groen");
+  removeColor();
+  svg.classList.toggle("groen");
 });
 
 //===========Rood============//
 var buttonRed = document.querySelector('.rood');
-var element = document.querySelector('div');
 
 buttonRed.addEventListener("click", function () {
-  element.classList.toggle("red");
+  removeColor();
+  svg.classList.toggle("red");
 });
+
+//===========Wit============//
+var buttonWit = document.querySelector('.wit');
+
+buttonWit.addEventListener("click", function () {
+  removeColor();
+  svg.classList.toggle("");
+});
+
+function removeColor() {
+  svg.classList.remove("amber");
+  svg.classList.remove("red");
+  svg.classList.remove("groen");
+  svg.classList.remove("blue");
+}
+
 
 //===============Einde button================//
 
@@ -50,13 +68,70 @@ function Slider(value) {
 document.getElementById('rangeValue').innerHTML = value;
 }
 
-var Value = '.rangeValue';
 
-if (Value < 5) {
-  console.log("Good day");
+//===============Einde slider================//
+
+//===========================================//
+//                 Keyboard                  //
+//===========================================//
+
+//================Years==================//
+var letterY = document.getElementById('Y');
+var letterE = document.getElementById('E');
+var letterA = document.getElementById('A');
+var letterR = document.getElementById('R');
+var letterS = document.getElementById('S');
+//================Light==================//
+var letterL = document.getElementById('L');
+var letterI = document.getElementById('I');
+var letterG = document.getElementById('G');
+var letterH = document.getElementById('H');
+var letterT = document.getElementById('T');
+
+window.addEventListener('keydown', toggle)
+
+function toggle(event) {
+  if(event.keyCode === 89) {
+    letterY.classList.toggle('TypografieYears');
+    removeColor()
+  }
+  if(event.keyCode === 69) {
+    letterE.classList.toggle('TypografieYears');
+    removeColor()
+  }
+  if(event.keyCode === 65) {
+    letterA.classList.toggle('TypografieYears');
+    removeColor()
+  }
+  if(event.keyCode === 82) {
+    letterR.classList.toggle('TypografieYears');
+    removeColor()
+  }
+  if(event.keyCode === 83) {
+    letterS.classList.toggle('TypografieYears');
+    removeColor()
+  }
+  if(event.keyCode === 76) {
+    letterL.classList.toggle('TypografieLetters');
+    removeColor()
+  }
+  if(event.keyCode === 73) {
+    letterI.classList.toggle('TypografieLetters');
+    removeColor()
+  }
+  if(event.keyCode === 71) {
+    letterG.classList.toggle('TypografieLetters');
+    removeColor()
+  }
+  if(event.keyCode === 72) {
+    letterH.classList.toggle('TypografieLetters');
+    removeColor()
+  }
+  if(event.keyCode === 84) {
+    letterT.classList.toggle('TypografieLetters');
+    removeColor()
+  }
 }
-
-
 
 
 
