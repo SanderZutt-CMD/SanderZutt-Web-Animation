@@ -167,14 +167,21 @@ button:nth-of-type(4) {
 /* ================================================ */
 /*			       	     Media Query    	   						*/
 /* ================================================ */
-
+/*
 @media screen and (max-width:768px) {
 	.art {
-	   border: 30px red;
+	   transform: rotate(90deg);
 	}
+} */
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  body {
+    transform: rotate(90deg);
+    margin-top: 40em;
+    width: 100%;
+    transition: ease-out;
+  }
 }
-
-
 
 
 
