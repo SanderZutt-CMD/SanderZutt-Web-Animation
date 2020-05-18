@@ -14,7 +14,6 @@ background-color: black;
 /*			       	   	SVG styling total  							*/
 /* ================================================ */
 
-
 .art {
 position: relative;
 width: 80%;
@@ -167,12 +166,7 @@ button:nth-of-type(4) {
 /* ================================================ */
 /*			       	     Media Query    	   						*/
 /* ================================================ */
-/*
-@media screen and (max-width:768px) {
-	.art {
-	   transform: rotate(90deg);
-	}
-} */
+
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
   body {
@@ -180,6 +174,12 @@ button:nth-of-type(4) {
     margin-top: 40em;
     width: 100%;
     transition: ease-out;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .buttons {
+    width: 100%;
   }
 }
 
