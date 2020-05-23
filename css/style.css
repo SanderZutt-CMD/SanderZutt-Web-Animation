@@ -234,9 +234,9 @@ button:nth-of-type(5) {
 
 @media screen and (max-width: 425px) {
   #undertitle {
-    font-size: 0.2em;
-    min-width: 170%;
-    margin-left: -10em;
+    font-size: 1em;
+    min-width: 150%;
+    margin-left: 0em;
   }
 }
 
