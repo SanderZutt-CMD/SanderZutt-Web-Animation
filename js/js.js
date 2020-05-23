@@ -11,7 +11,7 @@
 
 
 var button = document.querySelector('.blauw');
-var svg = document.querySelector('.art');
+var svg = document.querySelector('#letters');
 
 //===========Blauw============//
 button.addEventListener("click", function () {
