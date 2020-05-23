@@ -222,14 +222,16 @@ button:nth-of-type(5) {
 
 @media screen and (max-width: 425px) {
   button {
-      padding: 1em 2em 1em 2em;
+      padding: 0.5em 1em 0.5em 1em;
+      margin-top: 0.5em;
+      margin-bottom: 1.5em;
   }
 }
 
 @media screen and (max-width: 425px) {
   #undertitle {
     font-size: 0.5em;
-    min-width: 100%;
+    min-width: 150%;
   }
 }
 
