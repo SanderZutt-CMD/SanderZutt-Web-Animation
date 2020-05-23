@@ -134,6 +134,30 @@ function toggle(event) {
     removeColor()
   }
 }
+//==============Einde keyboard===============//
+
+//===========================================//
+//               TouchEvent                  //
+//===========================================//
 
 
-//===============Einde slider================//
+var change = document.querySelector('p');
+change.addEventListener("touchstart", function () {
+    document.getElementById("undertitle").style.display = "none";
+});
+
+console.log(change);
+
+
+
+
+
+
+
+
+
+
+
+
+
+//==============Einde keyboard===============//
