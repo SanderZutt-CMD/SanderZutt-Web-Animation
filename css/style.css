@@ -238,6 +238,7 @@ button:nth-of-type(5) {
 @media screen and (max-width: 425px) {
   .schuivert {
   margin-left: 50%;
+  margin-bottom: -3em;
   }
 }
 
