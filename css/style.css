@@ -246,7 +246,11 @@ button:nth-of-type(5) {
   }
 }
 
-
+@media screen and (max-width: 425px) {
+  #rangeValue {
+  display: none;
+  }
+}
 
 
 
