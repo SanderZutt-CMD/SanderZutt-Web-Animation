@@ -139,10 +139,10 @@ button:nth-of-type(4) {
 button:nth-of-type(5) {
   color: black;
 }
-button:nth-of-type(5):hover {
+/* button:nth-of-type(5):hover {
 	box-shadow: inset 0 -3.125rem 0 rgb(185, 172, 172, 0.3);
 	-webkit-transition: -webkit-box-shadow .35s ease-in-out;
-}
+} */
 
 /* ===================Einde button================== */
 
