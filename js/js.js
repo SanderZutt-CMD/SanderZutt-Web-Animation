@@ -140,16 +140,16 @@ function toggle(event) {
 //               TouchEvent                  //
 //===========================================//
 
+//
+// var change = document.querySelector('p');
+// change.addEventListener("touchstart", function () {
+//     document.getElementById("undertitle").style.display = "none";
+// });
 
 var change = document.querySelector('p');
 change.addEventListener("touchstart", function () {
-    document.getElementById("undertitle").style.display = "none";
+      change.classList.toggle("verandering");
 });
-
-console.log(change);
-
-
-
 
 
 
