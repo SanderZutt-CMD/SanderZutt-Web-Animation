@@ -47,7 +47,7 @@ var buttonWit = document.querySelector('.wit');
 
 buttonWit.addEventListener("click", function () {
   removeColor();
-  svg.classList.toggle("");
+  svg.classList.toggle("white");
 });
 
 function removeColor() {
