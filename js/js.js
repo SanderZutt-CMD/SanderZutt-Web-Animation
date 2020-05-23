@@ -9,6 +9,7 @@
 //===========================================//
 
 
+
 var button = document.querySelector('.blauw');
 var svg = document.querySelector('.art');
 
@@ -55,6 +56,7 @@ function removeColor() {
   svg.classList.remove("red");
   svg.classList.remove("groen");
   svg.classList.remove("blue");
+  svg.classList.remove("white");
 }
 
 
