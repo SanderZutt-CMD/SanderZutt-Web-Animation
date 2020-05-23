@@ -154,10 +154,4 @@ change.addEventListener("touchstart", function () {
 
 
 
-
-
-
-
-
-
 //==============Einde keyboard===============//
