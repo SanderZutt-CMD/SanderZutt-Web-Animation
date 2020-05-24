@@ -36,18 +36,23 @@ text-align: center;
 
 .blue {
     fill: #3F51B5;
+    transition: ease 0.2s;
 }
 .amber {
     fill: #FFC107;
+    transition: ease 0.2s;
 }
 .groen {
     fill: #CDDC39;
+    transition: ease 0.2s;
 }
 .red {
     fill: #EF5350;
+    transition: ease 0.2s;
 }
 .white {
   fill: #FFFFFF;
+  transition: ease 0.2s;
 
 }
 
@@ -187,9 +192,11 @@ button:nth-of-type(5) {
 
 .TypografieYears {
   fill: #990000;
+  transition: ease 0.3s;
 }
 .TypografieLetters {
   fill: #000099;
+  transition: ease 0.3s;
 }
 
 /* ===================Einde keyboard=============== */
@@ -200,12 +207,8 @@ button:nth-of-type(5) {
 
 .verandering{
   text-shadow: 0px 0px 10px #F8F1CD;
+  transition: ease 0.1s;
 }
-
-
-
-
-
 
 /* =================Einde TouchEvent=============== */
 
@@ -267,8 +270,5 @@ button:nth-of-type(5) {
   display: none;
   }
 } */
-
-
-
 
 /* ===================Einde button================= */
